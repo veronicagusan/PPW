@@ -1,7 +1,7 @@
 body {
     margin-left: 50px;
     margin-right: 50px;
-    background: #333333;
+    background:#141414;
     color: #bcbcbc;
     font-size: 19px;
      
@@ -11,3 +11,12 @@ body {
 	color:#F0E68C;
     text-decoration: none;
 }
+
+.block1 { 
+    width: 1500px; 
+    background:  #333333;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+   }
