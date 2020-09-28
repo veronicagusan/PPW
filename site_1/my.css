@@ -1,13 +1,13 @@
 body {
     margin-left: 50px;
     margin-right: 50px;
-    background: #708090;
-    color: white;
+    background: #333333;
+    color: #bcbcbc;
     font-size: 19px;
      
 }
 
 #id1 {
-	color:yellow;
+	color:#F0E68C;
     text-decoration: none;
 }
