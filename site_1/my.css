@@ -19,6 +19,6 @@ body {
     padding-left: 20px;
     border: solid 1px black; 
     float: left;
-    align-self: center;
-    margin: auto;
+    border-radius: 50px;
+    border: 1px solid#333333; /* Параметры рамки */
    }
