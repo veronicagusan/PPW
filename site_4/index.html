@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html  lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <title>Form site</title>
+</head>
+<body>
+    <form>
+        <h1>Vă rugăm să completați formularul de mai jos</h1>
+        <h2>Date personale</h2>
+        <label for="fname">Nume:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="fname" name="fname" placeholder="ex. Gușan"><br><br>
+        <label for="fname">Prenume:</label>
+        <input type="text" id="lname" name="lname" placeholder="ex. Veronica"></br></br>
+        <label for="fname">Seria și numărul buletinului:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. B 32009300"></br></br>
+        <label for="fname">IDNP:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. 2014675432123"></br></br>
+        <label for="fname">Adresă domiciliu:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. Str. N. Iorga 24"></br></br>
+        <label for="fname">Adresă reședință:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. Str. N. Iorga 24"></br></br>
+        <label for="fname">Gen:</label></br></br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Masculin</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Feminin</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Altul</label>
+        
+        <h2>Date de contact</h2>
+        <label for="fname">Telefon mobil:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. 068143826"></br></br>
+        <label for="fname">Telefon fix:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. 023041164"></br></br>
+        <label for="fname">Tutore sau părinte:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. Ivanenco Alisa, mama"></br></br>
+        <label for="fname">Număr de telefon al tutorelui/părintelui:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. 067564534, mobil"></br></br>
+        
+        <h2>Studii finisate</h2>
+        <label for="fname">Instituția de învățământ finisată:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. L. T. &quot; N. V. Gogol &quot;"></br></br>
+        <label for="fname">Localitatea:</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. mun. Bălți"></br></br>
+        <label for="fname">Tipul actului de studii finisate:</label></br></br>
+        <input type="radio" id="bac" name="bac" value="bac">
+        <label for="male">Diplomă de bacalaureat</label><br>
+        <input type="radio" id="colegiu" name="colegiu" value="colegiu">
+        <label for="female">Diplomă de studii medii de specialitate</label><br>
+        <input type="radio" id="univer" name="univer" value="univer">
+        <label for="other">Diplomă de studii superioare de licență</label></br></br>
+        <label for="fname">Seria și numărul actului de studii</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. AB2014453423"></br></br>
+        <label for="fname">Numărul de înregistrare al actului de studii</label>
+        <input type="text" id="idnp" name="idnp" placeholder="ex. 315123234345"></br></br>
+
+        <h2>Facultatea și specialitatea la care depuneți actele</h2>
+        <label for="facult">Selectați facultatea:</label>
+        <select id="facult" name="facult">
+            <option value="fsrem">Facultatea de Științe Reale, Economice și ale Mediului</option>
+            <option value="sepa">Facultatea de Științe ale Educației, Psihologie și Arte</option>
+            <option value="drept">Facultatea de Drept</option>
+            <option value="litere">Facultatea de Litere</option>
+        </select></br></br>
+        <label for="special">Selectați specialitatea:</label>
+        <select id="special" name="special">
+            <option value="mi">Matematică și informatică</option>
+            <option value="im">Inginerie și management în transportul auto</option>
+            <option value="ba">Business și Administrare</option>
+            <option value="is">Informatică (programatori)</option>
+        </select></br></br>
+        Selectați limba de instruire:
+        <input type="checkbox" id="ro" name="ro" value="ro">
+        <label for="ro"> Română</label>
+        <input type="checkbox" id="ru" name="ru" value="ru">
+        <label for="ru"> Rusă</label><br></br>
+
+        <button type="button" onclick="alert('Trimite formularul?')">Înregistrează-te</button>
+        </form>
+        
+    
+</body>
+</html>
